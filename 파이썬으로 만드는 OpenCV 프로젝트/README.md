@@ -1,3 +1,5 @@
+https://github.com/dltpdn/insightbook.opencv_project_python
+
 # 파이썬으로 만드는 OpenCV 프로젝트 
 **(간단한 영상 입출력부터 머신러닝까지)**
 
