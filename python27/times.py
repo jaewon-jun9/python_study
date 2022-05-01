@@ -17,3 +17,13 @@ diff_days = datetime.timedelta(days=50)
 newtime2 = newtime + diff_days
 strtime3 = newtime2.strftime('%Y-%m-%d %H:%M:%S')
 print(strtime3)
+# result
+# 2022-05-01 23:34:53
+# 2022
+# 05
+# 01
+# 23
+# 34
+# 53
+# 2009-05-23 17:05:09
+# 2009-07-12 17:05:09
