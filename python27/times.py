@@ -13,3 +13,6 @@ t = datetime.date(17,5,9)
 newtime = datetime.datetime.combine(d,t)
 strtime2 = newtime.strftime('%Y-%m-%d %H:%M:%S')
 print(strtime2)
+diff_days = datetime.timedelta(days=50)
+strtime2 + diff_days
+print(strtime2)
