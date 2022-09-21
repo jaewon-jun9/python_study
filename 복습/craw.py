@@ -77,16 +77,16 @@ for i in os.listdir("/content/drive/MyDrive/crolist/"):
     pass
 
 
-function ClickConnect() {
-    var buttons = document.querySelectorAll("colab-dialog.yes-no-dialog paper-button#cancel"); 
-    buttons.forEach(function(btn) { 
-        btn.click(); 
-    }); 
-    console.log("1분마다 자동 재연결"); 
-    document.querySelector("colab-toolbar-button#connect").click(); 
-} 
-setInterval(ClickConnect,1000*60);
+# function ClickConnect() {
+#     var buttons = document.querySelectorAll("colab-dialog.yes-no-dialog paper-button#cancel"); 
+#     buttons.forEach(function(btn) { 
+#         btn.click(); 
+#     }); 
+#     console.log("1분마다 자동 재연결"); 
+#     document.querySelector("colab-toolbar-button#connect").click(); 
+# } 
+# setInterval(ClickConnect,1000*60);
  
- external_polymer_binary_l10n__ko.js?vrz=colab-20220916-060047-RC00_474777951:1628 
+#  external_polymer_binary_l10n__ko.js?vrz=colab-20220916-060047-RC00_474777951:1628 
         
-       Recording uncaught error: TypeError TypeError: Cannot read properties of null (reading 'click')
+#        Recording uncaught error: TypeError TypeError: Cannot read properties of null (reading 'click')
